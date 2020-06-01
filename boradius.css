@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(26, 44, 59);
+    color: rgba(255, 255, 255, 0.877);
+}
+
+header{
+    font-size: 250%;
+    text-align: center;
+    padding: 60px 30px;
+}
+/*do not go above*/
+
+.inpClass{
+    float: left;
+    margin-left: 150px;
+}
+
+.inpClass #top{
+    margin-left: 40px;
+}
+
+.inpClass #sampleBox{
+    border-style: solid;
+    background-color: gray;
+    padding: 50px;
+    margin: 20px 200px;
+}
+
+.inpClass #sub{
+   margin-left: 225px;
+   margin-top: 20px;
+}
+
+.ansClass{ 
+    float: left; 
+    margin-left: 100px;
+    
+}
+
+.ansClass #cop{
+    margin-left: 90px;
+}
