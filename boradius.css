@@ -1,6 +1,7 @@
 body{
     background-color: rgb(26, 44, 59);
     color: rgba(255, 255, 255, 0.877);
+    min-width: 1100px;
 }
 
 header{
@@ -8,7 +9,6 @@ header{
     text-align: center;
     padding: 60px 30px;
 }
-/*do not go above*/
 
 .inpClass{
     float: left;
@@ -16,14 +16,14 @@ header{
 }
 
 .inpClass #top{
-    margin-left: 40px;
+    margin-left: 42px;
 }
 
 .inpClass #sampleBox{
     border-style: solid;
     background-color: gray;
     padding: 50px;
-    margin: 20px 200px;
+    margin: 20px 250px;
 }
 
 .inpClass #sub{
@@ -34,7 +34,6 @@ header{
 .ansClass{ 
     float: left; 
     margin-left: 100px;
-    
 }
 
 .ansClass #cop{
