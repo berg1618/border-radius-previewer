@@ -10,32 +10,32 @@ header{
     padding: 60px 30px;
 }
 
-.inpClass{
+.inpCl{
     float: left;
     margin-left: 150px;
 }
 
-.inpClass #top{
+.inpCl #top{
     margin-left: 42px;
 }
 
-.inpClass #sampleBox{
+.inpCl #sampleBox{
     border-style: solid;
     background-color: gray;
     padding: 50px;
     margin: 20px 250px;
 }
 
-.inpClass #sub{
+.inpCl #sub{
    margin-left: 225px;
    margin-top: 20px;
 }
 
-.ansClass{ 
+.ansCl{ 
     float: left; 
     margin-left: 100px;
 }
 
-.ansClass #cop{
+.ansCl #cop{
     margin-left: 90px;
 }

@@ -1,4 +1,6 @@
-alert('boku ha work!')
+const topL = document.getElementById("topL").value;
+
 function calBor(){
-    alert('aksjdfkaj');
+    alert(topL);
+    return true;
 }

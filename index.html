@@ -10,29 +10,30 @@
     <header>
         Border Radius
     </header>
-    <div class="borClass">
-        <form class="inpClass">
+    <div class="borCl">
+        <form class="inpCl">
             <div id="top">
                 Top Left
-                <input type="number"/>
+                <input type="number" id="topL"/>
                 Top Right
-                <input type="number"/>
+                <input type="number" id="topR"/>
             </div>
             <div id="sampleBox"></div>
             <div id="bot">
                 Bottom Left
-                <input type="number"/>
+                <input type="number" id="botL"/>
                 Bottom Right
-                <input type="number"/>
+                <input type="number" id="botR"/>
             </div>
             <br>
-            <button  id="sub" onclick="calBor()">submit</button>
+            <input id="sub" type="button" value="submit" onclick="calBor()">
         </form>
-        <div class="ansClass">
+        <div class="ansCl">
             <textarea id="ans" cols="30" rows="10" readonly></textarea>
             <br>
-            <button id="cop" onclick="">copy it!</button>
+            <button type="button" id="cop" onclick="copI()">copy it!</button>
         </div>
     </div>
+    <script src="boradius.js"></script>
 </body>
 </html>
