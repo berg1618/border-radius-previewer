@@ -14,6 +14,7 @@ function calBor(){
 function copI(){
     let text = document.getElementById('ans');
     text.select();
+    text.setSelectionRange(0, 99999);
     document.execCommand("copy");
-    tip.innerHTML = 'Press Ctrl + C';
+    confir.innerHTML = 'Copied!';
 }

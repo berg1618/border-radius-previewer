@@ -8,32 +8,36 @@
 </head>
 <body>
     <header>
-        Border Radius
+        Border Radius Previewer for CSS
     </header>
+        <div>
+            my version of the <a href='https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Border-Radius-Previewer.md'> second </a> project of app-ideas' repository.
+        </div>
         <div id="sampleBox"></div>
         <div class="ansCl">
             <div oninput="calBor()">
+                <br>
                 Top-Left:
-                <input class="range" type="range" id="topL" min="0" max="50" value="0"/>
+                <input class="range" type="range" id="topL" min="0" max="100" value="0"/>
                 <br>
                 Top-Right:
-                <input class="range" type="range" id="topR" min="0" max="50" value="0"/>
+                <input class="range" type="range" id="topR" min="0" max="100" value="0"/>
                 <br>
                 Bottom-Left:
-                <input class="range" type="range" id="botL" min="0" max="50" value="0"/>
+                <input class="range" type="range" id="botL" min="0" max="100" value="0"/>
                 <br>
                 Bottom-Right:
-                <input class="range" type="range" id="botR" min="0" max="50" value="0"/>
+                <input class="range" type="range" id="botR" min="0" max="100" value="0"/>
                 <br>
             </div>
             <textarea id="ans" cols="30" rows="2" readonly></textarea>
             <br>
-            <button type="button" id="cop" onclick="copI()">copy it!</button>
-            <div id="tip"></div>
+            <button type="button" id="cop" onclick="copI()">Copy It!</button>
+            <div id="confir"></div>
         </div>
     </div>
     <footer id="bach" >
-        <a href="https://en.wikipedia.org/wiki/Soli_Deo_gloria">SDG</a>
+        <a id="soli" href="https://en.wikipedia.org/wiki/Soli_Deo_gloria">SDG</a>
     </footer>
     <script src="boradius.js"></script>
 </body>

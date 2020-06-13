@@ -1,6 +1,6 @@
 body{
     background-color: rgb(26, 44, 59);
-    color: gray;
+    color: white;
     min-width: 1250px;
 }
 
@@ -8,6 +8,10 @@ header{
     font-size: 250%;
     text-align: center;
     padding: 60px 30px;
+}
+a{
+    color: white;
+    text-align: center;
 }
 
 #sampleBox{
@@ -22,10 +26,24 @@ header{
     float: left; 
     margin-left: 50px;
 }
+
+.range{
+    height: 10px;
+    -webkit-appearance: none;
+    border-radius: 50px;
+}
+
 .range::-webkit-slider-thumb{
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
+   -webkit-appearance: none;
+   width: 20px;
+   height: 20px;
+   background-color: gray;
+   border-radius: 50px;
+}
+textarea{
+    background-color: rgb(26, 44, 59);
+    border: none;
+    color:white;
 }
 
 .ansCl #cop{
@@ -38,6 +56,6 @@ header{
     font-family: cursive;
     padding-top: 120px;
 }
-a{
-    color: gray;
+#soli{
+    color: white;
 }
