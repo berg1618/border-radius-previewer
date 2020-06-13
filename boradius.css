@@ -1,7 +1,7 @@
 body{
     background-color: rgb(26, 44, 59);
-    color: rgba(255, 255, 255, 0.877);
-    min-width: 1100px;
+    color: gray;
+    min-width: 1250px;
 }
 
 header{
@@ -10,32 +10,34 @@ header{
     padding: 60px 30px;
 }
 
-.inpCl{
+#sampleBox{
     float: left;
-    margin-left: 150px;
-}
-
-.inpCl #top{
-    margin-left: 42px;
-}
-
-.inpCl #sampleBox{
-    border-style: solid;
+    border-style: none;
     background-color: gray;
-    padding: 50px;
-    margin: 20px 250px;
-}
-
-.inpCl #sub{
-   margin-left: 225px;
-   margin-top: 20px;
+    padding: 200px;
+    margin: 10px 50px 20px 300px;
 }
 
 .ansCl{ 
     float: left; 
-    margin-left: 100px;
+    margin-left: 50px;
+}
+.range::-webkit-slider-thumb{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
 }
 
 .ansCl #cop{
     margin-left: 90px;
+}
+
+#bach{
+    text-align: center;
+    clear: both;
+    font-family: cursive;
+    padding-top: 120px;
+}
+a{
+    color: gray;
 }

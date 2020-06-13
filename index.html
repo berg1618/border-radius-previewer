@@ -10,30 +10,31 @@
     <header>
         Border Radius
     </header>
-    <div class="borCl">
-        <form class="inpCl">
-            <div id="top">
-                Top Left
-                <input type="number" id="topL"/>
-                Top Right
-                <input type="number" id="topR"/>
-            </div>
-            <div id="sampleBox"></div>
-            <div id="bot">
-                Bottom Left
-                <input type="number" id="botL"/>
-                Bottom Right
-                <input type="number" id="botR"/>
-            </div>
-            <br>
-            <input id="sub" type="button" value="submit" onclick="calBor()">
-        </form>
+        <div id="sampleBox"></div>
         <div class="ansCl">
-            <textarea id="ans" cols="30" rows="10" readonly></textarea>
+            <div oninput="calBor()">
+                Top-Left:
+                <input class="range" type="range" id="topL" min="0" max="50" value="0"/>
+                <br>
+                Top-Right:
+                <input class="range" type="range" id="topR" min="0" max="50" value="0"/>
+                <br>
+                Bottom-Left:
+                <input class="range" type="range" id="botL" min="0" max="50" value="0"/>
+                <br>
+                Bottom-Right:
+                <input class="range" type="range" id="botR" min="0" max="50" value="0"/>
+                <br>
+            </div>
+            <textarea id="ans" cols="30" rows="2" readonly></textarea>
             <br>
             <button type="button" id="cop" onclick="copI()">copy it!</button>
+            <div id="tip"></div>
         </div>
     </div>
+    <footer id="bach" >
+        <a href="https://en.wikipedia.org/wiki/Soli_Deo_gloria">SDG</a>
+    </footer>
     <script src="boradius.js"></script>
 </body>
 </html>
