@@ -9,6 +9,9 @@ header{
     text-align: center;
     padding: 60px 30px;
 }
+#descrip{
+    font-size: medium;
+}
 a{
     color: white;
     text-align: center;
